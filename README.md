@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -18,7 +18,7 @@
 
 ---
 
-## ⚙️ Requirements & Setup
+## Requirements & Setup
 
 - Python 3.10+
 - Virtual environment (already created as `env/`)
@@ -55,9 +55,9 @@ output = "tests/"
 
 ---
 
-## 🚀 Usage Guide
+## Usage Guide
 
-### 🤖 AI Commands
+### AI Commands
 
 **Explain code:**
 ```bash
@@ -88,7 +88,7 @@ testpilot generate src/auth.py
 testpilot generate src/auth.py --framework unittest --output custom_tests/ --overwrite
 ```
 
-### 🏃 Running Tests & Reports
+### Running Tests & Reports
 
 **Run test suites:**
 ```bash
@@ -110,7 +110,7 @@ testpilot report --html --csv
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 testCaseGenerator/
@@ -145,7 +145,7 @@ testCaseGenerator/
 
 ---
 
-## 🔄 Example Daily Workflow
+## Example Daily Workflow
 
 ```bash
 # 1. You write a new module
