@@ -15,7 +15,8 @@
 | **`review`** | AI acts as a Senior Engineer providing a score out of 10, maintainability, readability, and testability feedback. |
 | **`run`** | Runs test suites through `pytest` and displays a rich summary table. |
 | **`report`** | Loads JSON test reports and exports them as beautiful dark-mode HTML pages or CSV. |
-
+| **`manual-report`** | Convert test results to a QA manual report (.md). |
+| **`--help`** | Shows help message and exits. |
 ---
 
 ## Requirements & Setup

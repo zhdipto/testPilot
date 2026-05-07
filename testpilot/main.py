@@ -11,6 +11,7 @@ from testpilot.commands.explain import explain
 from testpilot.commands.coverage import coverage
 from testpilot.commands.bug_find import bug_find
 from testpilot.commands.review import review
+from testpilot.commands.manual_report import manual_report
 
 console = Console()
 
@@ -30,7 +31,8 @@ app.command(name="report",   help="View and export test reports.")(report)
 app.command(name="explain",  help="Explain what a Python file does.")(explain)
 app.command(name="coverage", help="Analyse test coverage for a Python file.")(coverage)
 app.command(name="bug-find", help="Scan a Python file for potential bugs.")(bug_find)
-app.command(name="review",   help="Review a Python file like a Senior Engineer.")(review)
+app.command(name="review",       help="Review a Python file like a Senior Engineer.")(review)
+app.command(name="manual-report", help="Convert test results to a QA manual report (.md).")(manual_report)
 
 
 def version_callback(value: bool) -> None:

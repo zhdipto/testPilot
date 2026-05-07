@@ -1,6 +1,7 @@
 """Utility for validating, reading, and previewing source code files."""
 
 from pathlib import Path
+# pyrefly: ignore [missing-import]
 import typer
 from rich.console import Console
 from rich.syntax import Syntax
